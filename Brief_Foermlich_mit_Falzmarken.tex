@@ -1,0 +1,26 @@
+\documentclass[foldmarks=on,fromalign=right,backaddress=true,fromemail=false,fromurl=false,fromlogo=false,fromphone=true]{scrlttr2}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\renewcommand{\familydefault}{\rmdefault}
+
+\title{Titel}
+\author{Verfasser}
+\date{\today}
+\setkomavar{fromname}{Vonvorname Vonnachname}
+\setkomavar{fromaddress}{Vonstraße Vonnummer\\VonPLZ Vonstadt}
+\setkomavar{fromphone}{Vontelefonnummer}
+\setkomavar{signature}{Vonvorname Vonnachname}
+\setkomavar{subject}{Titelzeile}
+
+\begin{document}
+	\begin{letter}{Empfängername\\Empfängeradresse\\EmpfängerPLZ Empfängerstadt}
+		\opening{Anschrift: Sehr geehrte ...,}
+
+			der Inhalt des Schreibens\\
+			der Inhalt des Schreibens\\
+			der Inhalt des Schreibens\\
+			der Inhalt des Schreibens
+
+		\closing{Mit freundlichen Grüßen,}
+	\end{letter}
+\end{document}
